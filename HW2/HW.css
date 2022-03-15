@@ -1,0 +1,273 @@
+html, body{margin: 0}
+
+.background{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.7) 50%)
+  , url("./img/choctaw-bluff-g91d538985_1920.jpg");
+  width: 100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.day .word_shadow {
+    font-size: 10em;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #B18E37;
+    -webkit-text-stroke-width: 0.1em;
+}
+
+.day .word {
+    font-size: 10em;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #FFFFFF;
+}
+
+.night .word_shadow {
+    font-size: 10em;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #3B4659;
+    -webkit-text-stroke-width: 0.1em;
+}
+
+.night .word {
+    font-size: 10em;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #FFFFFF;
+}
+
+.day h1{
+  margin: 0;
+  position: fixed;
+  left: 25%;
+  top: 45%;
+  transform: translateX(-50%) translateY(-50%);
+  cursor:pointer;
+}
+
+.day h2{
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+  position: fixed;
+  left: 25%;
+  top: 65%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.night h1{
+  margin: 0;
+  position: fixed;
+  right: 25%;
+  top: 45%;
+  transform: translateX(+50%) translateY(-50%);
+  cursor:pointer;
+}
+
+.night h2{
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+  position: fixed;
+  right: 25%;
+  top: 65%;
+  transform: translateX(+50%) translateY(-50%);
+}
+
+.day:hover{
+        transform-origin: 50% 40%;
+        font-size: 18px;
+}
+
+.night:hover{
+        transform-origin: 50% 40%;
+        font-size: 18px;
+}
+
+#img1{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2))
+  , url('./img/coffee-gb635bf22d_1920.jpg');
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img2{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2))
+  , url('./img/tiramisu-ge57797d3f_1920.jpg');
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img3{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2))
+  , url('./img/chocolate-cake-g54b971e32_1920.jpg');
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img4{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2))
+  , url('./img/coffee-shop-ga4e4026d2_1920.jpg');
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img5{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+  , url('./img/whiskey-g4a43d8529_1280.jpg');
+  width: 48.9vw;
+  height: 100vh;
+  margin-left: 50vw;
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+  background-size: cover;
+}
+
+#img6{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+  , url('./img/singer-g5d917ca44_1280.jpg');
+  width: 48.9vw;
+  height: 100vh;
+  margin-left: 50vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img7{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+  , url('./img/bar-g6bf67e6bc_1280.jpg');
+  width: 48.9vw;
+  height: 100vh;
+  margin-left: 50vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menu1{
+  background: #F2EFE2;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 48vw;
+  border-style: double;
+  border-width: 15px;
+  border-color: #B18E37;
+}
+
+#menu2{
+  background: #F2EFE2;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  border-style: double;
+  border-width: 15px;
+  border-color: #3B4659;
+}
+
+.menu_top{
+  font-size: 24px;
+  margin-top:25px;
+  text-align: center;
+  color: #B18E37;
+}
+
+.eng{
+  color: #9D9B8D;
+}
+
+.price{
+  position: absolute;
+  right:60px;
+}
+
+.title1{
+  color: #B18E37;
+}
+
+.title2{
+  margin-top: 100px;
+  color: #3B4659;
+}
+
+.item{
+  color: #6E6E66;
+  font-size: 1.3vw;
+  text-align: left;
+  margin-left: 60px;
+}
+
+i.arrow1{
+  position: fixed;
+  border: solid white;
+  border-width: 0px 5px 5px 0;
+  padding: 12px;
+}
+
+i.left1{
+  transform: rotate(135deg) ;
+  left: 2%;
+  top: 50%;
+}
+
+i.down1{
+  left: 23.3vw;
+  bottom: 5vh;
+  transform: rotate(45deg);
+}
+
+i.icon_background1{
+  position:fixed;
+  left: 1%;
+  top: 48.5%;
+  padding: 25px;
+  border-radius:25px;
+  background:rgba(255, 255, 255, 0.5);
+  cursor:pointer;
+}
+
+i.arrow2{
+  position: fixed;
+  border: solid white;
+  border-width: 0px 5px 5px 0;
+  padding: 12px;
+}
+
+i.left2{
+  transform: rotate(-45deg);
+  right: 2%;
+  top: 50%;
+}
+
+i.down2{
+  right: 23.3vw;
+  bottom: 5vh;
+  transform: rotate(45deg);
+}
+
+i.icon-background2{
+  position:fixed;
+  right: 1%;
+  top: 48.5%;
+  padding:25px;
+  border-radius:25px;
+  background:rgba(255, 255, 255, 0.5);
+  cursor:pointer;
+}
